@@ -28,8 +28,8 @@
 ## Author
 
 - Created by Bakir
-- GitHub: [@yourusername]
-- Email: your.email@example.com
+- GitHub: [Mostafa Bakir]
+- Email: mostafabakir234@gmail.com
 
 ## License
 
