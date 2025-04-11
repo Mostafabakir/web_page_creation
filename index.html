@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Search</title>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="images.html">Images</a>
+    <a href="advanced.html">Advanced Search</a>
+    <label class="dark-switch">
+      <input type="checkbox" id="darkModeToggle"> 🌙
+    </label>
+  </nav>
+
+  <div class="background-text">Bakir for programming</div>
+
+  <div class="search-card">
+    <div class="search-container">
+      <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search Google">
+        <div class="buttons">
+          <input type="submit" value="Google Search">
+          <input type="submit" name="btnI" value="I’m Feeling Lucky">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('change', e => {
+      document.body.classList.toggle('dark', e.target.checked);
+    });
+  </script>
+<!-- Add before closing body tag -->
+  <footer class="footer">
+    <p>Created by Bakir | GitHub: <a href="https://github.com/Mostafabakir">@Mostafabakir</a> | 
+    Email: Mostafabakir234@gmail.com | © 2023</p>
+  </footer>
+</body>
+</html>
+
